@@ -55,41 +55,39 @@
         </section>
     </header>
     <main>
-        <section class="HOME">
+        <section>
             <div class="container py-4">
-                <div id="carouselId" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000"> <!--data-bs-interval, es para los intervalos de 
-                    tiempo del carrusel , se pone manual en milisegundo 1000 igaul a 1 segundo-->
-                    <ol class="carousel-indicators list-unstyled"> <!--añadir: list-u (para quitar lis numeritos)-->
+                <div id="carouselId" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+                    <ol class="carousel-indicators list-unstyled">
                         <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true"
                             aria-label="First slide"></li>
                         <li data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Second slide"></li>
                         <li data-bs-target="#carouselId" data-bs-slide-to="2" aria-label="Third slide"></li>
-                        <li data-bs-target="#carouselId" data-bs-slide-to="2" aria-label="Cuarto slide"></li>
-                        <li data-bs-target="#carouselId" data-bs-slide-to="2" aria-label="Quinto slide"></li><!--Esto es
-                        para que aparezca las rayas debajo del carrusel para acceder a las imagenes que queramos-->
+                        <li data-bs-target="#carouselId" data-bs-slide-to="3" aria-label="Cuarto slide"></li>
+                        <li data-bs-target="#carouselId" data-bs-slide-to="4" aria-label="Quinto slide"></li>
                     </ol>
                     <div class="carousel-inner" role="listbox">
                         <div class="carousel-item active">
-                            <img src="img/carrusel/anfibios1.png" alt="First slide" class="img-fluid">
+                            <img src="img/carrusel/anfibios1.png" alt="First slide" class="img-fluid w-100">
                         </div>
                         <div class="carousel-item">
-                            <img src="img/carrusel/aves1.png" alt="Second slide" class="img-fluid">
+                            <img src="img/carrusel/aves1.png" alt="Second slide" class="img-fluid w-100">
                         </div>
                         <div class="carousel-item">
-                            <img src="img/carrusel/mamiferos1.png" alt="Third slide" class="img-fluid">
+                            <img src="img/carrusel/mamiferos1.png" alt="Third slide" class="img-fluid w-100">
                         </div>
                         <div class="carousel-item">
-                            <img src="img/carrusel/peces1.png" alt="Cuarto slide" class="img-fluid">
+                            <img src="img/carrusel/peces1.png" alt="Cuarto slide" class="img-fluid w-100">
                         </div>
                         <div class="carousel-item">
-                            <img src="img/carrusel/reptiles1.png" alt="Quinto slide" class="img-fluid">
+                            <img src="img/carrusel/reptiles1.png" alt="Quinto slide" class="img-fluid w-100">
                         </div>
                     </div>
-                    <a class="carousel-control-prev" href="#carouselId" role="button" data-slide="prev">
+                    <a class="carousel-control-prev" href="#carouselId" role="button" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="sr-only"></span>
                     </a>
-                    <a class="carousel-control-next" href="#carouselId" role="button" data-slide="next">
+                    <a class="carousel-control-next" href="#carouselId" role="button" data-bs-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="sr-only"></span>
                     </a>
