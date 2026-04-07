@@ -10,15 +10,16 @@
     <!-- Bootstrap CSS v5.2.1 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body class="d-flex flex-column min-vh-100">
+    <div id="subir"></div>
     <header class="sticky-top">
-        <section id="subir">
+        <section>
             <nav class="navbar navbar-expand-sm navbar-light bg-menu">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="index.html"><img src="img/logos/logo.png" alt="" width="60"></a>
+                    <a class="navbar-brand" href="../index.html"><img src="../img/logos/logo.png" alt="" width="60"></a>
                     <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
                         aria-label="Toggle navigation">
@@ -27,17 +28,17 @@
                     <div class="collapse navbar-collapse" id="collapsibleNavId">
                         <ul class="navbar-nav me-auto mt-2 mt-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link" href="index.html">Inicio</a>
+                                <a class="nav-link" href="../index.html">Inicio</a>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown"
                                     aria-haspopup="true" aria-expanded="false">Selecciona categoria</a>
                                 <div class="dropdown-menu" aria-labelledby="dropdownId">
-                                    <a class="dropdown-item" href="Anfibios.html">Anfibios</a>
-                                    <a class="dropdown-item" href="Aves.html">Aves</a>
-                                    <a class="dropdown-item" href="Mamiferos.html">Mamiferos</a>
-                                    <a class="dropdown-item" href="Peces.html">Peces</a>
-                                    <a class="dropdown-item" href="Reptiles.html">Reptiles</a>
+                                    <a class="dropdown-item" href="../anfibios/rananormal.html">Anfibios</a>
+                                    <a class="dropdown-item" href="../aves/lechuza.html">Aves</a>
+                                    <a class="dropdown-item" href="../mamiferos/conejo.html">Mamiferos</a>
+                                    <a class="dropdown-item" href="../peces/pezaguadulce.html">Peces</a>
+                                    <a class="dropdown-item" href="../reptiles/culebra.html">Reptiles</a>
                                 </div>
                             </li>
                             <li class="nav-item">
@@ -59,36 +60,101 @@
             <section>
                 <div class="text-center">
                     <p class="display-4">Catálogo de animales</p>
-                    <h1>Reptiles. Encontrados: 4</h1>
+                    <h1>Mamíferos. Encontrados: 9</h1>
                     <hr>
                     <div class="row flex-nowrap overflow-auto">
                         <div class="col-6 col-md-4 col-lg-3 col-xl-2">
-                            <img src="img/animales/reptiles/culebra.jpg" alt="" class="img-fluid">
-                            <h3 class="bg-success text-white text-center">Culebra</h3>
+                            <a href="conejo.html" class="text-decoration-none">
+                                <div class="ratio ratio-4x3">
+                                    <img src="../img/animales/mamiferos/conejo0.jpg"
+                                        class="w-100 h-100 object-fit-cover">
+                                </div>
+                                <h3 class="bg-success text-white text-center pb-1">Conejo</h3>
+                            </a>
                         </div>
                         <div class="col-6 col-md-4 col-lg-3 col-xl-2">
-                            <img src="img/animales/reptiles/galapago.jpg" alt="" class="img-fluid">
-                            <h3 class="bg-success text-white text-center">Galápago</h3>
+                            <a href="jineta.html" class="text-decoration-none">
+                                <div class="ratio ratio-4x3">
+                                    <img src="../img/animales/mamiferos/jineta.jpg"
+                                        class="w-100 h-100 object-fit-cover">
+                                </div>
+                                <h3 class="bg-success text-white text-center pb-1">Jineta</h3>
+                            </a>
                         </div>
                         <div class="col-6 col-md-4 col-lg-3 col-xl-2">
-                            <img src="img/animales/reptiles/lagartija.jpg" alt="" class="img-fluid">
-                            <h3 class="bg-success text-white text-center">Lagartija</h3>
+                            <a href="castor.html" class="text-decoration-none">
+                                <div class="ratio ratio-4x3">
+                                    <img src="../img/animales/mamiferos/castores.jpg"
+                                        class="w-100 h-100 object-fit-cover">
+                                </div>
+                                <h3 class="bg-success text-white text-center pb-1">Castor</h3>
+                            </a>
                         </div>
                         <div class="col-6 col-md-4 col-lg-3 col-xl-2">
-                            <img src="img/animales/reptiles/lagarto.JPG" alt="" class="img-fluid">
-                            <h3 class="bg-success text-white text-center">Lagarto</h3>
+                            <a href="elefante.html" class="text-decoration-none">
+                                <div class="ratio ratio-4x3">
+                                    <img src="../img/animales/mamiferos/elefantes.jpg"
+                                        class="w-100 h-100 object-fit-cover">
+                                </div>
+                                <h3 class="bg-success text-white text-center pb-1">Elefante</h3>
+                            </a>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+                            <a href="hippopotamo.html" class="text-decoration-none">
+                                <div class="ratio ratio-4x3">
+                                    <img src="../img/animales/mamiferos/hippos.jpg"
+                                        class="w-100 h-100 object-fit-cover">
+                                </div>
+                                <h3 class="bg-success text-white text-center pb-1">Hippopotamo</h3>
+                            </a>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+                            <a href="leonmarino.html" class="text-decoration-none">
+                                <div class="ratio ratio-4x3">
+                                    <img src="../img/animales/mamiferos/leonesmarinos.jpg"
+                                        class="w-100 h-100 object-fit-cover">
+                                </div>
+                                <h3 class="bg-success text-white text-center pb-1">Leon Marino</h3>
+                            </a>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+                            <a href="oso.html" class="text-decoration-none">
+                                <div class="ratio ratio-4x3">
+                                    <img src="../img/animales/mamiferos/osos.jpg" 
+                                        class="w-100 h-100 object-fit-cover">
+                                </div>
+                                <h3 class="bg-success text-white text-center pb-1">Oso</h3>
+                            </a>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+                            <a href="tigre.html" class="text-decoration-none">
+                                <div class="ratio ratio-4x3">
+                                    <img src="../img/animales/mamiferos/tigre.jpg" 
+                                        class="w-100 h-100 object-fit-cover">
+                                </div>
+                                <h3 class="bg-success text-white text-center pb-1">Tigre</h3>
+                            </a>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+                            <a href="zorro.html" class="text-decoration-none">
+                                <div class="ratio ratio-4x3">
+                                    <img src="../img/animales/mamiferos/zorro.JPG" 
+                                        class="w-100 h-100 object-fit-cover">
+                                </div>
+                                <h3 class="bg-success text-white text-center pb-1">Zorro</h3>
+                            </a>
                         </div>
                     </div>
                 </div>
             </section>
             <section>
                 <hr>
-                <h1 class="text-center">Culebra bastarda</h1>
+                <h1 class="text-center">Conejo</h1>
                 <hr>
                 <div class="row bg-menu">
                     <div class="col-lg-3 col-xl-4">
                         <h2>Taxonomía</h2>
-                        <table class="table table-striped table-borderless">
+                        <table class="table table-striped table-borderless table-success">
                             <tr>
                                 <td>Reino:</td>
                                 <td>Animalia</td>
@@ -99,99 +165,55 @@
                             </tr>
                             <tr>
                                 <td>Clase:</td>
-                                <td>Sauropsida</td>
+                                <td>Mammalia</td>
                             </tr>
                             <tr>
                                 <td>Orden:</td>
-                                <td>Squamata</td>
+                                <td>Lagomorpha</td>
                             </tr>
                             <tr>
                                 <td>Familia:</td>
-                                <td>Colubridae</td>
+                                <td>Leporidae</td>
                             </tr>
                             <tr>
                                 <td>Género:</td>
-                                <td>Malpolon</td>
+                                <td>Oryctolagus</td>
                             </tr>
                             <tr>
                                 <td>Especie:</td>
-                                <td>M. monspessulanus</td>
+                                <td>Oryctolagus cuniculus</td>
                             </tr>
                         </table>
-                        <p class="fw-bold">Insertado por: Valeria</p>
+                        <p class="fw-bold">Insertado por: Joel</p>
                     </div>
                     <div class="col-lg-9 col-xl-8">
-                        <h1>Malpolon monspessulanus</h1>
+                        <h1>Oryctolagus cuniculus</h1>
                         <p>
-                            La culebra bastarda o de Montpellier (Malpolon monspessulanus) es una especie de reptil
-                            escamoso de la
-                            familia Colubridae. Es una serpiente venenosa opistoglifa (con los dientes inoculadores de
-                            veneno situados
-                            en la parte posterior de la boca) que no es peligrosa para el hombre.
+                            El conejo es un pequeño mamífero herbívoro ampliamente distribuido y conocido por su alta
+                            capacidad reproductiva. Es una especie fundamental en numerosos ecosistemas como presa para
+                            muchos depredadores.
                         </p>
                         <h1>Características</h1>
                         <p>
-                            Los ejemplares macho adultos pueden llegar a superar con facilidad los 2 m de longitud
-                            total; son
-                            frecuentemente menores, aunque individuos muy excepcionales pueden alcanzar hasta 2,55 m,
-                            siendo, por tanto,
-                            la mayor especie de la península ibérica y del resto de Europa. Posee dientes venenosos en
-                            la parte
-                            posterior del maxilar superior (opistoglifa).
+                            Se caracteriza por sus largas orejas, potentes patas traseras y cuerpo compacto. Su pelaje
+                            puede variar en color dependiendo del entorno. Posee una excelente capacidad auditiva y
+                            visual que le permite detectar depredadores con rapidez.
                         </p>
+                        <h1>Distribución</h1>
                         <p>
-                            La cabeza presenta un aspecto muy característico, pues posee ojos grandes, con las escamas
-                            supraoculares
-                            muy salientes que forman una especie de ceja muy prominente que le da una expresión de
-                            mirada penetrante.
-                            La escama frontal es característicamente estrecha. Posee ocho escamas supralabiales de las
-                            que la 4.ª y
-                            la 2.ª están bordeando el ojo. Las escamas del dorso son lisas y con arcos, pero nunca
-                            carenadas, formando
-                            17 o 19 hileras en el centro del cuerpo: de 160 a 189 escamas ventrales. La cola representa
-                            aproximadamente
-                            1/4 de la longitud total. Presenta un dorso oliváceo o pardusco claro generalmente uniforme,
-                            mostrando en
-                            el tercio anterior una zona de manchas negruzcas (en los machos y de vez en cuando hembras)
-                            muy
-                            características (mancha de silla de montar), y las partes inferiores amarillentas con un
-                            ligero moteado
-                            oscuro. Los jóvenes presentan 5 o 7 hileras de manchas oscuras a lo largo del cuerpo, siendo
-                            más grandes las
-                            centrodorsales que las de los flancos.
+                            Originario de la península ibérica, ha sido introducido en numerosos continentes, donde en
+                            algunos casos se ha convertido en especie invasora.
                         </p>
-                        <h1>Evolución</h1>
+                        <h1>Alimentación</h1>
                         <p>
-                            La evidencia genética sugiere que la especie se originó en el Magreb, migrando hacia el sur
-                            de Europa entre
-                            83 000 y 168 000 años atrás y hacia el sureste de Europa y el oeste de Asia posteriormente.
-                            Está más
-                            estrechamente relacionado con la especie de norteafricana Malpolon moilensis y con una
-                            especie fósil del
-                            Plioceno de España, Malpolon mlynarskii, con la que forma el género Malpolon. Malpolon tiene
-                            un buen registro
-                            fósil, que se remonta al Plioceno, tanto en el suroeste de Europa y el norte de África.
+                            Se alimenta de hierbas, hojas, raíces y corteza. Practica la cecotrofia, ingiriendo ciertos
+                            excrementos para aprovechar mejor los nutrientes.
                         </p>
-                        <h1>Veneno</h1>
+                        <h1>Reproducción</h1>
                         <p>
-                            Debido a la situación posterior de sus colmillos, es difícil que éstos lleguen a ser
-                            efectivos al morder al
-                            hombre. Sin embargo, los ejemplares de mayor tamaño, al poseer una boca de gran amplitud, sí
-                            pueden causar
-                            envenenamientos leves, nunca mortales.
+                            Tiene una de las tasas reproductivas más altas entre los mamíferos. Puede tener varias
+                            camadas al año con entre 3 y 8 crías cada una.
                         </p>
-                        <p>
-                            Solo se conocen algunos casos de envenenamiento en los seres humanos, uno de los cuales se
-                            produjo cuando se
-                            insertó un dedo en la boca de la serpiente. En tal caso, la picadura viene acompañada por la
-                            inflamación
-                            local y el dolor, edema y/o linfangitis o síntomas neurológicos (parestesias, disfagia,
-                            ptosis, disnea) o,
-                            excepcionalmente, una leve parálisis. Estos efectos son, sin embargo, pasajeros y tienen una
-                            fácil cura.
-                        </p>
-                        <p>El veneno es de baja toxicidad; Un tratamiento sintomático es suficiente para tratar un
-                            envenenamiento.</p>
                     </div>
                 </div>
             </section>
@@ -225,17 +247,17 @@
                         <h6><a href="http://riberadeltajo.es/nuevaweb/" class="text-white text-decoration-none">I.E.S.
                                 Ribera del Tajo</a>
                         </h6>
-
                     </div>
                     <div class="col-md-5 text-center">
-                        <h6><a href="quienessomos.html" class="text-white text-decoration-none">Quienes somos</a></h6>
+                        <h6><a href="../quienessomos.html" class="text-white text-decoration-none">Quienes somos</a>
+                        </h6>
                         <h6><a href="" class="text-white text-decoration-none" data-bs-toggle="modal"
                                 data-bs-target="#modalprivacidad">Privacidad</a></h6>
                         <h6><a href="" class="text-white text-decoration-none" data-bs-toggle="modal"
                                 data-bs-target="#modalcontacto">Contacto</a>
                         </h6>
                     </div>
-                    <div class="col-md-1"><a href="index.html" class="btn btn-success text-end">HOME</a></div>
+                    <div class="col-md-1"><a href="../index.html" class="btn btn-success text-end">HOME</a></div>
                 </div>
             </div>
             <h6 class="text-center py-2 mb-0">Catálogo de animales &copy; S1DAM - S1DAW</h6>

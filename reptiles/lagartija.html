@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>WSkills</title>
+    <title>Reptiles</title>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -10,16 +10,16 @@
     <!-- Bootstrap CSS v5.2.1 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body class="d-flex flex-column min-vh-100">
     <div id="subir"></div>
     <header class="sticky-top">
-        <section id="subir">
+        <section>
             <nav class="navbar navbar-expand-sm navbar-light bg-menu">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="index.html"><img src="img/logos/logo.png" alt="" width="60"></a>
+                    <a class="navbar-brand" href="../index.html"><img src="../img/logos/logo.png" alt="" width="60"></a>
                     <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
                         aria-label="Toggle navigation">
@@ -28,7 +28,7 @@
                     <div class="collapse navbar-collapse" id="collapsibleNavId">
                         <ul class="navbar-nav me-auto mt-2 mt-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link" href="index.html">Inicio</a>
+                                <a class="nav-link" href="../index.html">Inicio</a>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown"
@@ -56,79 +56,154 @@
         </section>
     </header>
     <main class="flex-grow-1">
-        <section>
-            <div class="container py-4">
-                <div id="carouselId" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
-                    <ol class="carousel-indicators list-unstyled">
-                        <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true"
-                            aria-label="First slide"></li>
-                        <li data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Second slide"></li>
-                        <li data-bs-target="#carouselId" data-bs-slide-to="2" aria-label="Third slide"></li>
-                        <li data-bs-target="#carouselId" data-bs-slide-to="3" aria-label="Cuarto slide"></li>
-                        <li data-bs-target="#carouselId" data-bs-slide-to="4" aria-label="Quinto slide"></li>
-                    </ol>
-                    <div class="carousel-inner" role="listbox">
-                        <div class="carousel-item active">
-                            <img src="img/carrusel/anfibios1.png" alt="First slide" class="img-fluid w-100">
+        <div class="container py-4">
+            <section>
+                <div class="text-center">
+                    <p class="display-4">Catálogo de animales</p>
+                    <h1>Reptiles. Encontrados: 4</h1>
+                    <hr>
+                    <div class="row flex-nowrap overflow-auto">
+                        <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+                            <a href="culebra.html" class="text-decoration-none">
+                                <img src="../img/animales/reptiles/culebra.jpg" alt="" class="img-fluid">
+                                <h3 class="bg-success text-white text-center pb-1">Culebra</h3>
+                            </a>
                         </div>
-                        <div class="carousel-item">
-                            <img src="img/carrusel/aves1.png" alt="Second slide" class="img-fluid w-100">
+                        <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+                            <a href="galapago.html" class="text-decoration-none">
+                                <img src="../img/animales/reptiles/galapago.jpg" alt="" class="img-fluid">
+                                <h3 class="bg-success text-white text-center pb-1">Galápago</h3>
+                            </a>
                         </div>
-                        <div class="carousel-item">
-                            <img src="img/carrusel/mamiferos1.png" alt="Third slide" class="img-fluid w-100">
+                        <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+                            <a href="lagartija.html" class="text-decoration-none">
+                                <img src="../img/animales/reptiles/lagartija.jpg" alt="" class="img-fluid">
+                                <h3 class="bg-success text-white text-center pb-1">Lagartija</h3>
+                            </a>
                         </div>
-                        <div class="carousel-item">
-                            <img src="img/carrusel/peces1.png" alt="Cuarto slide" class="img-fluid w-100">
+                        <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+                            <a href="lagarto.html" class="text-decoration-none">
+                                <img src="../img/animales/reptiles/lagarto.JPG" alt="" class="img-fluid">
+                                <h3 class="bg-success text-white text-center pb-1">Lagarto</h3>
+                            </a>
                         </div>
-                        <div class="carousel-item">
-                            <img src="img/carrusel/reptiles1.png" alt="Quinto slide" class="img-fluid w-100">
-                        </div>
-                    </div>
-                    <a class="carousel-control-prev" href="#carouselId" role="button" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only"></span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselId" role="button" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only"></span>
-                    </a>
-                </div>
-                <h1 class="text-center">Catálogo de animales</h1>
-                <h2 class="text-center">Los otros animales de la tierra</h2>
-                <div class="row justify-content-center mt-4">
-                    <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
-                        <a href="anfibios/rananormal.html" class="text-decoration-none">
-                            <img src="img/categorias/anfibios.jpeg" alt="" class="rounded-circle img-fluid">
-                            <h4 class="bg-success text-center mt-3 text-white">Anfibios</h4>
-                        </a>
-                    </div>
-                    <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
-                        <a href="aves/lechuza.html" class="text-decoration-none">
-                            <img src="img/categorias/aves.jpeg" alt="" class="rounded-circle img-fluid">
-                            <h4 class="bg-success text-center mt-3 text-white">Aves</h4>
-                        </a>
-                    </div>
-                    <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
-                        <a href="mamiferos/conejo.html" class="text-decoration-none">
-                            <img src="img/categorias/maniferos.jpeg" alt="" class="rounded-circle img-fluid">
-                            <h4 class="bg-success text-center mt-3 text-white">Mamíferos</h4>
-                        </a>
-                    </div>
-                    <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
-                        <a href="peces/pezaguadulce.html" class="text-decoration-none">
-                            <img src="img/categorias/peces.jpeg" alt="" class="rounded-circle img-fluid">
-                            <h4 class="bg-success text-center mt-3 text-white">Peces</h4>
-                        </a>
-                    </div>
-                    <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
-                        <a href="reptiles/culebra.html" class="text-decoration-none">
-                            <img src="img/categorias/reptiles.jpeg" alt="" class="rounded-circle img-fluid ">
-                            <h4 class="bg-success text-center mt-3 text-white">Reptiles</h4>
-                        </a>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
+            <section>
+                <hr>
+                <h1 class="text-center">Lagartija ibérica</h1>
+                <hr>
+                <div class="row bg-menu">
+                    <div class="col-lg-3 col-xl-4">
+                        <h2>Taxonomía</h2>
+                        <table class="table table-striped table-borderless table-success">
+                            <tr>
+                                <td>Reino:</td>
+                                <td>Animalia</td>
+                            </tr>
+                            <tr>
+                                <td>Filo:</td>
+                                <td>Chordata</td>
+                            </tr>
+                            <tr>
+                                <td>Clase:</td>
+                                <td>Sauropsida</td>
+                            </tr>
+                            <tr>
+                                <td>Orden:</td>
+                                <td>Squamata</td>
+                            </tr>
+                            <tr>
+                                <td>Familia:</td>
+                                <td>Lacertidae</td>
+                            </tr>
+                            <tr>
+                                <td>Género:</td>
+                                <td>Podarcis</td>
+                            </tr>
+                            <tr>
+                                <td>Especie:</td>
+                                <td>P. hispanicus</td>
+                            </tr>
+                        </table>
+                        <p class="fw-bold">Insertado por: Joel</p>
+                    </div>
+                    <div class="col-lg-9 col-xl-8">
+                        <h1>Podarcis hispanicus</h1>
+                        <p>
+                            La lagartija ibérica (Podarcis hispanicus) es una especie de saurópsido (reptil) escamoso de
+                            la familia Lacertidae que vive en la península Ibérica (excepto áreas de alta montaña y
+                            noroeste de Galicia), norte de África y sureste de Francia, donde sigue el curso del Ródano
+                            hasta Lyon. Algunas poblaciones habitan en islotes cercanos a las costas ibéricas donde son
+                            más sensibles a la actividad humana. La especie también es conocida como lagartija común y
+                            lagartija hispánica, así como sargantana o sargrantana en el este de España.
+                        </p>
+                        <h1>Características</h1>
+                        <p>
+                            El rango de tamaños más común entre los machos varía entre 4,2 y 5,9 centímetros de la punta
+                            del morro a la cloaca, aunque algunos individuos pueden alcanzar los 6,5 cm. Las hembras,
+                            más pequeñas y gráciles, miden de 4,1 a 5,7 cm. La cola puede llegar a alcanzar hasta 10
+                            centímetros, prácticamente el doble que el resto del cuerpo. Al igual que en otros reptiles
+                            emparentados, parte de ésta se desprende y mueve frenéticamente cuando es atrapada por un
+                            depredador, permitiendo escapar a la lagartija. Además de en el tamaño y la corpulencia, los
+                            machos se diferencian de las hembras por su cabeza masiva, triangular y de escamas más
+                            marcadas, así como en la mayor longitud de las patas, sobre todo las traseras.
+                        </p>
+                        <p>
+                            El color y dibujo de la piel varía enormemente de una zona a otra e incluso entre individuos
+                            de una misma población. Por lo general es pardo-verdoso, a veces rojizo en la zona de la
+                            espalda, cuello y cabeza. En estos lugares pueden aparecer moteaduras o retículas, algo
+                            característico de los machos. Predomina la presencia de bandas laterales, especialmente en
+                            las hembras, entre las que destacan dos gruesas y oscuras que pueden ir perfiladas por otras
+                            amarillentas más delgadas. El pecho, aplanado, es de color amarillento y presenta menos
+                            escamas ventrales en machos (25-30) que en hembras (28-36). La cola también posee un rango
+                            de colores enormemente variable (pardo, verdoso, rojizo, amarillento o incluso azulada
+                            característica propia de los ejemplares juveniles), pudiendo ser uniforme, con dos colores
+                            distintos o incluso con manchas oscuras alineadas a todo lo largo de la misma.
+                        </p>
+                        <h1>Hábitat</h1>
+                        <p>
+                            La lagartija hispánica abunda con mayor frecuencia en terrenos rocosos o pedregosos, donde
+                            cuenta de forma simultánea con plataformas donde tomar el sol y refugios donde esconderse en
+                            caso de peligro. En zonas rurales habita también en casas y muros de piedra que le
+                            proporcionan las mismas características; se encuentra también en áreas de bosque, pradera y
+                            matorral, aunque algunas actividades humanas asociadas a la agricultura extensiva pueden
+                            haberla hecho desaparecer de algunas zonas. Las lagartijas ibéricas no muestran un auténtico
+                            comportamiento territorial.
+                        </p>
+                        <p>
+                            Los ejemplares de esta especie no hibernan realmente, sino que se mantienen activos la mayor
+                            parte del año. Sólo la existencia de episodios realmente fríos en el invierno pueden
+                            forzarlos a no abandonar sus refugios durante un tiempo. La especie necesita veranos
+                            cálidos, por esta razón está ausente en las áreas con los veranos más frescos de la
+                            Península ibérica, como Asturias y el norte de Galicia, así como en las áreas de montaña por
+                            encima de los 1650 msnm
+                        </p>
+                        <p>
+                            Depreda sobre todo insectos y arácnidos de menos de 25 mm de longitud, tanto en tierra como
+                            sobre los árboles. A su vez, es presa de múltiples depredadores entre los que se incluyen el
+                            lagarto ocelado, varias culebras, aves y mamíferos carnívoros como la comadreja, el gato
+                            montés y el doméstico (asilvestrado o no).
+                        </p>
+                        <h1>Reproducción</h1>
+                        <p>
+                            La época de celo se produce entre marzo y junio, época en que resultan más visibles. Los
+                            machos se vuelven más activos y pelean entre sí, tratando de mantener alejados a sus
+                            competidores de las hembras. Tras asegurarse de su triunfo, el vencedor protagoniza unas
+                            cópulas que pueden llegar a durar una hora, aunque generalmente son más breves.
+                        </p>
+                        <p>
+                            A lo largo de estos meses, las hembras realizan varias puestas que oscilan entre 1 y 5
+                            huevos que se incuban con el calor del ambiente entre 40 y 80 días. Las crías nacen con el
+                            cuerpo pardo y la cola verde-azulada, por lo que pueden confundirse con las de su pariente
+                            la lagartija gallega (Podarcis bocagei), de aspecto muy similar. La madurez sexual no llega
+                            hasta el segundo año de vida, cuando rondan los 4'5 centímetros.
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </div>
     </main>
     <footer>
         <section class="bg-secondary">
@@ -158,17 +233,17 @@
                         <h6><a href="http://riberadeltajo.es/nuevaweb/" class="text-white text-decoration-none">I.E.S.
                                 Ribera del Tajo</a>
                         </h6>
-
                     </div>
                     <div class="col-md-5 text-center">
-                        <h6><a href="quienessomos.html" class="text-white text-decoration-none">Quienes somos</a></h6>
+                        <h6><a href="../quienessomos.html" class="text-white text-decoration-none">Quienes somos</a>
+                        </h6>
                         <h6><a href="" class="text-white text-decoration-none" data-bs-toggle="modal"
                                 data-bs-target="#modalprivacidad">Privacidad</a></h6>
                         <h6><a href="" class="text-white text-decoration-none" data-bs-toggle="modal"
                                 data-bs-target="#modalcontacto">Contacto</a>
                         </h6>
                     </div>
-                    <div class="col-md-1"><a href="index.html" class="btn btn-success text-end">HOME</a></div>
+                    <div class="col-md-1"><a href="../index.html" class="btn btn-success text-end">HOME</a></div>
                 </div>
             </div>
             <h6 class="text-center py-2 mb-0">Catálogo de animales &copy; S1DAM - S1DAW</h6>

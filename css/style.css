@@ -4,3 +4,8 @@
 .bg-home {
     background-color: #F5F9FC;
 }
+.table-success {
+    --bs-table-bg: #E5FAE9;
+    --bs-table-striped-bg: #d4f5da;
+    --bs-table-border-color: #c8f0ce;
+}

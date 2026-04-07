@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>WSkills</title>
+    <title>Reptiles</title>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -10,16 +10,16 @@
     <!-- Bootstrap CSS v5.2.1 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body class="d-flex flex-column min-vh-100">
     <div id="subir"></div>
     <header class="sticky-top">
-        <section id="subir">
+        <section>
             <nav class="navbar navbar-expand-sm navbar-light bg-menu">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="index.html"><img src="img/logos/logo.png" alt="" width="60"></a>
+                    <a class="navbar-brand" href="../index.html"><img src="../img/logos/logo.png" alt="" width="60"></a>
                     <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
                         aria-label="Toggle navigation">
@@ -28,7 +28,7 @@
                     <div class="collapse navbar-collapse" id="collapsibleNavId">
                         <ul class="navbar-nav me-auto mt-2 mt-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link" href="index.html">Inicio</a>
+                                <a class="nav-link" href="../index.html">Inicio</a>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown"
@@ -56,79 +56,138 @@
         </section>
     </header>
     <main class="flex-grow-1">
-        <section>
-            <div class="container py-4">
-                <div id="carouselId" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
-                    <ol class="carousel-indicators list-unstyled">
-                        <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true"
-                            aria-label="First slide"></li>
-                        <li data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Second slide"></li>
-                        <li data-bs-target="#carouselId" data-bs-slide-to="2" aria-label="Third slide"></li>
-                        <li data-bs-target="#carouselId" data-bs-slide-to="3" aria-label="Cuarto slide"></li>
-                        <li data-bs-target="#carouselId" data-bs-slide-to="4" aria-label="Quinto slide"></li>
-                    </ol>
-                    <div class="carousel-inner" role="listbox">
-                        <div class="carousel-item active">
-                            <img src="img/carrusel/anfibios1.png" alt="First slide" class="img-fluid w-100">
+        <div class="container py-4">
+            <section>
+                <div class="text-center">
+                    <p class="display-4">Catálogo de animales</p>
+                    <h1>Anfibios. Encontrados: 4</h1>
+                    <hr>
+                    <div class="row flex-nowrap overflow-auto">
+                        <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+                            <a href="cecilio.html" class="text-decoration-none">
+                                <img src="../img/animales/anfibios/cecilio.jpg" alt="" class="img-fluid">
+                                <h3 class="bg-success text-white text-center pb-1">Cecilio</h3>
+                            </a>
                         </div>
-                        <div class="carousel-item">
-                            <img src="img/carrusel/aves1.png" alt="Second slide" class="img-fluid w-100">
+                        <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+                            <a href="rananormal.html" class="text-decoration-none">
+                                <img src="../img/animales/anfibios/375px-Common_Toad_(Bufo_bufo).jpg" alt=""
+                                    class="img-fluid">
+                                <h3 class="bg-success text-white text-center pb-1">Sapo Común</h3>
+                            </a>
                         </div>
-                        <div class="carousel-item">
-                            <img src="img/carrusel/mamiferos1.png" alt="Third slide" class="img-fluid w-100">
+                        <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+                            <a href="ranapeluda.html" class="text-decoration-none">
+                                <img src="../img/animales/anfibios/rana-peluda-e1591975710970.jpg" alt=""
+                                    class="img-fluid">
+                                <h3 class="bg-success text-white text-center pb-1">Rana Peluda</h3>
+                            </a>
                         </div>
-                        <div class="carousel-item">
-                            <img src="img/carrusel/peces1.png" alt="Cuarto slide" class="img-fluid w-100">
+                        <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+                            <a href="saposurinam.html" class="text-decoration-none">
+                                <img src="../img/animales/anfibios/saposurinam.jpg" alt="" class="img-fluid">
+                                <h3 class="bg-success text-white text-center pb-1">Sapo Surinam</h3>
+                            </a>
                         </div>
-                        <div class="carousel-item">
-                            <img src="img/carrusel/reptiles1.png" alt="Quinto slide" class="img-fluid w-100">
-                        </div>
-                    </div>
-                    <a class="carousel-control-prev" href="#carouselId" role="button" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only"></span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselId" role="button" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only"></span>
-                    </a>
-                </div>
-                <h1 class="text-center">Catálogo de animales</h1>
-                <h2 class="text-center">Los otros animales de la tierra</h2>
-                <div class="row justify-content-center mt-4">
-                    <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
-                        <a href="anfibios/rananormal.html" class="text-decoration-none">
-                            <img src="img/categorias/anfibios.jpeg" alt="" class="rounded-circle img-fluid">
-                            <h4 class="bg-success text-center mt-3 text-white">Anfibios</h4>
-                        </a>
-                    </div>
-                    <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
-                        <a href="aves/lechuza.html" class="text-decoration-none">
-                            <img src="img/categorias/aves.jpeg" alt="" class="rounded-circle img-fluid">
-                            <h4 class="bg-success text-center mt-3 text-white">Aves</h4>
-                        </a>
-                    </div>
-                    <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
-                        <a href="mamiferos/conejo.html" class="text-decoration-none">
-                            <img src="img/categorias/maniferos.jpeg" alt="" class="rounded-circle img-fluid">
-                            <h4 class="bg-success text-center mt-3 text-white">Mamíferos</h4>
-                        </a>
-                    </div>
-                    <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
-                        <a href="peces/pezaguadulce.html" class="text-decoration-none">
-                            <img src="img/categorias/peces.jpeg" alt="" class="rounded-circle img-fluid">
-                            <h4 class="bg-success text-center mt-3 text-white">Peces</h4>
-                        </a>
-                    </div>
-                    <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
-                        <a href="reptiles/culebra.html" class="text-decoration-none">
-                            <img src="img/categorias/reptiles.jpeg" alt="" class="rounded-circle img-fluid ">
-                            <h4 class="bg-success text-center mt-3 text-white">Reptiles</h4>
-                        </a>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
+            <section>
+                <hr>
+                <h1 class="text-center">Rana peluda</h1>
+                <hr>
+                <div class="row bg-menu">
+                    <div class="col-lg-3 col-xl-4">
+                        <h2>Taxonomía</h2>
+                        <table class="table table-striped table-borderless table-success">
+                            <tr>
+                                <td>Reino:</td>
+                                <td>Animalia</td>
+                            </tr>
+                            <tr>
+                                <td>Filo:</td>
+                                <td>Chordata</td>
+                            </tr>
+                            <tr>
+                                <td>Clase:</td>
+                                <td>Amphibia</td>
+                            </tr>
+                            <tr>
+                                <td>Orden:</td>
+                                <td>Anura</td>
+                            </tr>
+                            <tr>
+                                <td>Familia:</td>
+                                <td>Arthroleptidae</td>
+                            </tr>
+                            <tr>
+                                <td>Género:</td>
+                                <td>Trichobatrachus</td>
+                            </tr>
+                            <tr>
+                                <td>Especie:</td>
+                                <td>T. robustus</td>
+                            </tr>
+                        </table>
+                        <p class="fw-bold">Insertado por: Joel</p>
+                    </div>
+                    <div class="col-lg-9 col-xl-8">
+                        <h1>Trichobatrachus robustus</h1>
+                        <p>
+                            La rana peluda (Trichobatrachus robustus) es una especie de anuro de la familia
+                            Arthroleptidae. Es una especie monotípica dentro del género Trichobatrachus. El color de la
+                            rana peluda es marrón o sepia, con una oscura y ancha franja en el dorso. La zona del
+                            vientre es gris, tienen manchas negras en las cuatro patas, y las puntas de los dedos son
+                            oscuras. En la cabeza tiene unas rayas negras detrás de los ojos y entre ellos.
+                        </p>
+                        <h1>Hábitat</h1>
+                        <p>
+                            Se encuentra en Camerún, República Democrática del Congo, Guinea Ecuatorial, Gabón, sudeste
+                            de Nigeria, norte de Angola, África y posiblemente también en la República del Congo. Su
+                            hábitat son los bosques húmedos tropicales o subtropicales, las riberas, las tierras de
+                            labor, las plantaciones y los bosques severamente degradados. Está amenazada por la pérdida
+                            de hábitat.
+                        </p>
+                        <h1>Alimentación</h1>
+                        <p>
+                            Es un anfibio carnívoro que se alimenta de insectos y moluscos, como escarabajos, babosas,
+                            grillos o arañas.
+                        </p>
+                        <h1>Morfología y Reproducción</h1>
+                        <p>
+                            Los machos son de mayor tamaño que las hembras, llegando a alcanzar los 11 cm, poseen una
+                            forma aplanada con cabeza ancha y hocico plano. Suelen vivir en tierra, regresando al agua
+                            solamente para la reproducción.
+                        </p>
+                        <p>
+                            Los machos poseen un saco vocal pareado y desarrollan una especie de filamentos en los
+                            costados y en las patas traseras durante la época de cría, de donde deriva su nombre.
+                        </p>
+                        <p>
+                            Deposita los huevos en rocas dentro de corrientes de agua. Los renacuajos poseen hileras de
+                            dientes afilados y son carnívoros.
+                        </p>
+                        <p>
+                            Conocida comúnmente como rana peluda porque los machos en periodo de apareamiento
+                            desarrollan unos filamentos de piel, parecidos en la forma a pelos, que usan para
+                            complementar su aporte de oxígeno. El nombre científico de este particular animal es
+                            Trichobatrachus robustus. Significa "rana peluda robusta". Efectivamente, se trata de una
+                            rana de unos 11 cm de largo que tiene una complexión corpulenta y unas proyecciones en la
+                            piel que a simple vista parecen pelos. Sin embargo, estas proyecciones dérmicas, que se
+                            encuentran en los laterales de los machos en edad reproductiva, no son pelos. Son
+                            extensiones de la piel altamente vascularizadas (llenas de arterias). Sirven para aumentar
+                            la superficie dérmica en contacto con el exterior. En realidad, es una estructura que
+                            aumenta la superficie respiratoria. Eso se comprende fácilmente si recordamos que los
+                            anfibios, pese a tener pulmones, realizan una importante parte de la respiración a través de
+                            la piel, captando el oxígeno disuelto en el aire o en el agua. Fisiológicamente, realizan la
+                            misma función que las branquias externas de los renacuajos, los alevines de las ranas. Esto
+                            resulta esencial para una rana con pulmones pequeños y un cuerpo tan robusto como el
+                            Trichobatrachus robustus.
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </div>
     </main>
     <footer>
         <section class="bg-secondary">
@@ -158,17 +217,17 @@
                         <h6><a href="http://riberadeltajo.es/nuevaweb/" class="text-white text-decoration-none">I.E.S.
                                 Ribera del Tajo</a>
                         </h6>
-
                     </div>
                     <div class="col-md-5 text-center">
-                        <h6><a href="quienessomos.html" class="text-white text-decoration-none">Quienes somos</a></h6>
+                        <h6><a href="../quienessomos.html" class="text-white text-decoration-none">Quienes somos</a>
+                        </h6>
                         <h6><a href="" class="text-white text-decoration-none" data-bs-toggle="modal"
                                 data-bs-target="#modalprivacidad">Privacidad</a></h6>
                         <h6><a href="" class="text-white text-decoration-none" data-bs-toggle="modal"
                                 data-bs-target="#modalcontacto">Contacto</a>
                         </h6>
                     </div>
-                    <div class="col-md-1"><a href="index.html" class="btn btn-success text-end">HOME</a></div>
+                    <div class="col-md-1"><a href="../index.html" class="btn btn-success text-end">HOME</a></div>
                 </div>
             </div>
             <h6 class="text-center py-2 mb-0">Catálogo de animales &copy; S1DAM - S1DAW</h6>

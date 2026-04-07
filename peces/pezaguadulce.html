@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>WSkills</title>
+    <title>Reptiles</title>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -10,16 +10,16 @@
     <!-- Bootstrap CSS v5.2.1 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body class="d-flex flex-column min-vh-100">
     <div id="subir"></div>
     <header class="sticky-top">
-        <section id="subir">
+        <section>
             <nav class="navbar navbar-expand-sm navbar-light bg-menu">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="index.html"><img src="img/logos/logo.png" alt="" width="60"></a>
+                    <a class="navbar-brand" href="../index.html"><img src="../img/logos/logo.png" alt="" width="60"></a>
                     <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
                         aria-label="Toggle navigation">
@@ -28,7 +28,7 @@
                     <div class="collapse navbar-collapse" id="collapsibleNavId">
                         <ul class="navbar-nav me-auto mt-2 mt-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link" href="index.html">Inicio</a>
+                                <a class="nav-link" href="../index.html">Inicio</a>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown"
@@ -56,79 +56,110 @@
         </section>
     </header>
     <main class="flex-grow-1">
-        <section>
-            <div class="container py-4">
-                <div id="carouselId" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
-                    <ol class="carousel-indicators list-unstyled">
-                        <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true"
-                            aria-label="First slide"></li>
-                        <li data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Second slide"></li>
-                        <li data-bs-target="#carouselId" data-bs-slide-to="2" aria-label="Third slide"></li>
-                        <li data-bs-target="#carouselId" data-bs-slide-to="3" aria-label="Cuarto slide"></li>
-                        <li data-bs-target="#carouselId" data-bs-slide-to="4" aria-label="Quinto slide"></li>
-                    </ol>
-                    <div class="carousel-inner" role="listbox">
-                        <div class="carousel-item active">
-                            <img src="img/carrusel/anfibios1.png" alt="First slide" class="img-fluid w-100">
+        <div class="container py-4">
+            <section>
+                <div class="text-center">
+                    <p class="display-4">Catálogo de animales</p>
+                    <h1>Peces. Encontrados: 1</h1>
+                    <hr>
+                    <div class="row flex-nowrap overflow-auto">
+                        <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+                            <a href="pezaguadulce.html" class="text-decoration-none">
+                                <img src="../img/animales/peces/trucha_5809_1200.jpg" alt="" class="img-fluid">
+                                <h3 class="bg-success text-white text-center pb-1">Trucha</h3>
+                            </a>
                         </div>
-                        <div class="carousel-item">
-                            <img src="img/carrusel/aves1.png" alt="Second slide" class="img-fluid w-100">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="img/carrusel/mamiferos1.png" alt="Third slide" class="img-fluid w-100">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="img/carrusel/peces1.png" alt="Cuarto slide" class="img-fluid w-100">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="img/carrusel/reptiles1.png" alt="Quinto slide" class="img-fluid w-100">
-                        </div>
-                    </div>
-                    <a class="carousel-control-prev" href="#carouselId" role="button" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only"></span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselId" role="button" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only"></span>
-                    </a>
-                </div>
-                <h1 class="text-center">Catálogo de animales</h1>
-                <h2 class="text-center">Los otros animales de la tierra</h2>
-                <div class="row justify-content-center mt-4">
-                    <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
-                        <a href="anfibios/rananormal.html" class="text-decoration-none">
-                            <img src="img/categorias/anfibios.jpeg" alt="" class="rounded-circle img-fluid">
-                            <h4 class="bg-success text-center mt-3 text-white">Anfibios</h4>
-                        </a>
-                    </div>
-                    <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
-                        <a href="aves/lechuza.html" class="text-decoration-none">
-                            <img src="img/categorias/aves.jpeg" alt="" class="rounded-circle img-fluid">
-                            <h4 class="bg-success text-center mt-3 text-white">Aves</h4>
-                        </a>
-                    </div>
-                    <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
-                        <a href="mamiferos/conejo.html" class="text-decoration-none">
-                            <img src="img/categorias/maniferos.jpeg" alt="" class="rounded-circle img-fluid">
-                            <h4 class="bg-success text-center mt-3 text-white">Mamíferos</h4>
-                        </a>
-                    </div>
-                    <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
-                        <a href="peces/pezaguadulce.html" class="text-decoration-none">
-                            <img src="img/categorias/peces.jpeg" alt="" class="rounded-circle img-fluid">
-                            <h4 class="bg-success text-center mt-3 text-white">Peces</h4>
-                        </a>
-                    </div>
-                    <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
-                        <a href="reptiles/culebra.html" class="text-decoration-none">
-                            <img src="img/categorias/reptiles.jpeg" alt="" class="rounded-circle img-fluid ">
-                            <h4 class="bg-success text-center mt-3 text-white">Reptiles</h4>
-                        </a>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
+            <section>
+                <hr>
+                <h1 class="text-center">Trucha común</h1>
+                <hr>
+                <div class="row bg-menu">
+                    <div class="col-lg-3 col-xl-4">
+                        <h2>Taxonomía</h2>
+                        <table class="table table-striped table-borderless table-success">
+                            <tr>
+                                <td>Reino:</td>
+                                <td>Animalia</td>
+                            </tr>
+                            <tr>
+                                <td>Filo:</td>
+                                <td>Chordata</td>
+                            </tr>
+                            <tr>
+                                <td>Clase:</td>
+                                <td>Actinopterygii</td>
+                            </tr>
+                            <tr>
+                                <td>Orden:</td>
+                                <td>Salmoniformes</td>
+                            </tr>
+                            <tr>
+                                <td>Familia:</td>
+                                <td>Salmonidae</td>
+                            </tr>
+                            <tr>
+                                <td>Género:</td>
+                                <td>Salmo</td>
+                            </tr>
+                            <tr>
+                                <td>Especie:</td>
+                                <td>S. trutta</td>
+                            </tr>
+                        </table>
+                        <p class="fw-bold">Insertado por: Joel</p>
+                    </div>
+                    <div class="col-lg-9 col-xl-8">
+                        <h1>Salmo trutta</h1>
+                        <p>
+                            La trucha común (Salmo trutta) es un pez de agua dulce perteneciente a la familia
+                            Salmonidae. Es una especie muy extendida en ríos y lagos de Europa, incluyendo gran parte de
+                            la Península Ibérica. También ha sido introducida en otras regiones del mundo como América,
+                            Australia y Nueva Zelanda. Vive en aguas frías, limpias y bien oxigenadas, como ríos de
+                            montaña y arroyos.
+                        </p>
+                        <h1>Características</h1>
+                        <p>
+                            La trucha común presenta un cuerpo alargado y fusiforme, adaptado para nadar contra
+                            corriente. Su coloración varía según el hábitat, pero generalmente es marrón o verdosa con
+                            manchas negras y puntos rojos rodeados de halos claros en los costados.
+                        </p>
+                        <p>
+                            Puede alcanzar tamaños muy variables, desde unos pocos centímetros hasta más de 1 metro en
+                            algunos casos. Su piel está cubierta de pequeñas escamas y posee una aleta adiposa
+                            característica de los salmónidos.
+                        </p>
+                        <h1>Alimentación</h1>
+                        <p>
+                            La trucha común es carnívora. Se alimenta principalmente de insectos acuáticos y terrestres,
+                            crustáceos y pequeños peces.
+                        </p>
+                        <p>
+                            Los ejemplares jóvenes consumen sobre todo insectos y larvas, mientras que los adultos
+                            pueden cazar peces más pequeños, anfibios e incluso pequeños vertebrados. Es un depredador
+                            oportunista que suele alimentarse en zonas de corriente donde llega alimento arrastrado por
+                            el agua.
+                        </p>
+                        <h1>Reproducción</h1>
+                        <p>
+                            La reproducción tiene lugar generalmente entre otoño e invierno. Durante esta época, las
+                            truchas remontan los ríos en busca de zonas con grava limpia donde desovar.
+                        </p>
+                        <p>
+                            La hembra excava un nido en el fondo del río, donde deposita los huevos, que posteriormente
+                            son fecundados por el macho. Después, los cubre con grava para protegerlos.
+                        </p>
+                        <p>
+                            El número de huevos puede variar entre cientos y miles, dependiendo del tamaño de la hembra.
+                            Tras varias semanas o meses, nacen los alevines, que permanecen protegidos en el fondo hasta
+                            que son capaces de nadar y alimentarse por sí mismos.
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </div>
     </main>
     <footer>
         <section class="bg-secondary">
@@ -158,17 +189,17 @@
                         <h6><a href="http://riberadeltajo.es/nuevaweb/" class="text-white text-decoration-none">I.E.S.
                                 Ribera del Tajo</a>
                         </h6>
-
                     </div>
                     <div class="col-md-5 text-center">
-                        <h6><a href="quienessomos.html" class="text-white text-decoration-none">Quienes somos</a></h6>
+                        <h6><a href="../quienessomos.html" class="text-white text-decoration-none">Quienes somos</a>
+                        </h6>
                         <h6><a href="" class="text-white text-decoration-none" data-bs-toggle="modal"
                                 data-bs-target="#modalprivacidad">Privacidad</a></h6>
                         <h6><a href="" class="text-white text-decoration-none" data-bs-toggle="modal"
                                 data-bs-target="#modalcontacto">Contacto</a>
                         </h6>
                     </div>
-                    <div class="col-md-1"><a href="index.html" class="btn btn-success text-end">HOME</a></div>
+                    <div class="col-md-1"><a href="../index.html" class="btn btn-success text-end">HOME</a></div>
                 </div>
             </div>
             <h6 class="text-center py-2 mb-0">Catálogo de animales &copy; S1DAM - S1DAW</h6>
